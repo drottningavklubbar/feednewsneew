@@ -2,6 +2,7 @@ import {ChangeEvent, useState} from "react";
 import {StoryProps} from "../story";
 import React from 'react';
 
+//cum e aceasta interfata in cazul acesta?
 
 export const AddStoryForm=(props:any)=>{
 

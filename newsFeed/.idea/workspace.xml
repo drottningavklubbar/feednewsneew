@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -26,6 +26,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ts.external.directory.path" value="C:\Users\oana2\WebstormProjects\newsFeed\newsfeed\node_modules\typescript\lib" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oana2\WebstormProjects\newsFeed\newsfeed\src\news-feed\btn-edit" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -38,6 +43,8 @@
       <updated>1580927118260</updated>
       <workItem from="1580927122489" duration="967000" />
       <workItem from="1580928164428" duration="17100000" />
+      <workItem from="1581021900643" duration="8467000" />
+      <workItem from="1581031004535" duration="273000" />
     </task>
     <servers />
   </component>
@@ -45,6 +52,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1581029167309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.2560.1040@0.0.1366.728" timestamp="1581029167309" />
     <state x="2309" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580931707058">
       <screen x="1366" y="0" width="2560" height="1040" />
     </state>
