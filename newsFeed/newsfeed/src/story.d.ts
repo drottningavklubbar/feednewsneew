@@ -1,5 +1,5 @@
 export interface StoryProps {
-    id:number
+    id?:number
     text:string
     name:string
     imagine?:string

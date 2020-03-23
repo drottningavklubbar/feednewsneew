@@ -13,19 +13,19 @@ EditStoryForm = (props: any) => {
             setStoryState(props.currentStory)
         },
         [props]
-    )
+    );
 
     const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const {name, value} = event.target
+        const {name, value} = event.target;
         setStoryState({...storyState, [name]: value})
-    }
+    };
 
 
     const handleOnSubmit = (event: any) => {
-        event.preventDefault()
+        event.preventDefault();
 
         props.updateStory(storyState.id, storyState);
-    }
+    };
 
 
     return (

@@ -28,10 +28,11 @@ export const NewsFeed = (props:NewsFeedProps) =>{
                         <td>{story.name}</td>
                         <td>{story.text}</td>
                         <td>
-                            <button className="button muted-button" onClick={()=>{editRow(story)}}>Edit</button>
+                            {/* <button className="button muted-button" onClick={()=>{editRow(story)}}>Edit</button> */}
                             <button className="button muted-button" onClick={()=>{deleteStoryProps(story.id)}}>Delete</button>
                             <BtnLike />
                         </td>
+                        
                     </tr>
                 ))
             ):(

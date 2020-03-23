@@ -6,25 +6,23 @@ import React from 'react';
 
 export const AddStoryForm=(props:any)=>{
 
-    const initialFormState={id:0,name:"",text:""}
+    const initialFormState={name:"",text:""};
     const [storyState,setStoryState]=useState(initialFormState);
 
 
 
     const handleInputChange=(event:React.ChangeEvent<HTMLInputElement>)=>{
-        const {name,value}=event.target
+        const {name,value}=event.target;
         setStoryState({...storyState,[name]:value})
-    }
+    };
 
 
 
     const handleOnSubmit=(event:any)=>{
-        event.preventDefault()
-       if(! storyState.name || !storyState.text) return
-
-        props.addStory(storyState);
+        event.preventDefault();
+       if(! storyState.name || !storyState.text) return props.addStory(storyState);
         setStoryState(initialFormState);
-    }
+    };
 
 
 return(
